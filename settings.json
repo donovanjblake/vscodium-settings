@@ -64,6 +64,17 @@
                         "fontStyle": ""
                     }
                 },
+                {
+                    "scope": [
+                        "keyword",
+                        "keyword.control",
+
+                    ],
+                    "settings": {
+                        "foreground": "#f90",
+                        "fontStyle": ""
+                    }
+                }
             ]
         }
     },
@@ -130,9 +141,17 @@
                 "typeParameter": {
                     "foreground": "#96f",
                     "fontStyle": "italic"
-                }
+                },
+                "variable": {
+                    "foreground": "#9ef",
+                    "fontStyle": ""
+                },
             }
         }
-    }
-
+    },
+    "[python]": {
+        "editor.rulers": [
+            100
+        ]
+    },
 }
