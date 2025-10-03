@@ -8,7 +8,7 @@
                 "fontStyle": "italic"
             },
             "functions": {
-                "foreground": "#1ea",
+                "foreground": "#1e7",
                 "fontStyle": ""
             },
             "keywords": {
@@ -24,14 +24,115 @@
                 "fontStyle": ""
             },
             "types": {
-                "foreground": "#70f",
+                "foreground": "#96f",
                 "fontStyle": ""
             },
             "variables": {
                 "foreground": "#0cf",
                 "fontStyle": ""
             },
-            "textMateRules": []
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#777",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.function"
+                    ],
+                    "settings": {
+                        "foreground": "#1e7",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "string",
+                        "string.quoted.single",
+                        "punctuation.definition.string.begin",
+                        "punctuation.definition.string.end",
+                        "string.quoted.single.python punctuation.definition.string.begin.python",
+                        "string.quoted.single.python punctuation.definition.string.end.python"
+                    ],
+                    "settings": {
+                        "foreground": "#ff0",
+                        "fontStyle": ""
+                    }
+                },
+            ]
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Bearded Theme Black & Gold]": {
+            "enabled": true,
+            "rules": {
+                "comment": {
+                    "foreground": "#777",
+                    "fontStyle": "italic"
+                },
+                "class":  {
+                    "foreground": "#96f",
+                    "fontStyle": ""
+                },
+                "enum": {
+                    "foreground": "#96f",
+                    "fontStyle": ""
+                },
+                "enumMember": {
+                    "foreground": "#b86",
+                    "fontStyle": "italic"
+                },
+                "function": {
+                    "foreground": "#1e7",
+                    "fontStyle": ""
+                },
+                "keyword": {
+                    "foreground": "#f90",
+                    "fontStyle": ""
+                },
+                "macro": {
+                    "foreground": "#f0f",
+                    "fontStyle": "bold"
+                },
+                "method": {
+                    "foreground": "#1e7",
+                    "fontStyle": "italic"
+                },
+                "namespace": {
+                    "foreground": "#aaa",
+                    "fontStyle": ""
+                },
+                "number": {
+                    "foreground": "#b86",
+                    "fontStyle": ""
+                },
+                "parameter": {
+                    "foreground": "#d6c",
+                    "fontStyle": "italic"
+                },
+                "property": {
+                    "foreground": "#08f",
+                    "fontStyle": "italic"
+                },
+                "string": {
+                    "foreground": "#ff0",
+                    "fontStyle": ""
+                },
+                "type": {
+                    "foreground": "#96f",
+                    "fontStyle": ""
+                },
+                "typeParameter": {
+                    "foreground": "#96f",
+                    "fontStyle": "italic"
+                }
+            }
         }
     }
+
 }
