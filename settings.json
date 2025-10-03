@@ -1,0 +1,37 @@
+{
+    "workbench.colorTheme": "Bearded Theme Black & Gold",
+    "python.languageServer": "Jedi",
+    "editor.tokenColorCustomizations": {
+        "[Bearded Theme Black & Gold]": {
+            "comments": {
+                "foreground": "#777",
+                "fontStyle": "italic"
+            },
+            "functions": {
+                "foreground": "#1ea",
+                "fontStyle": ""
+            },
+            "keywords": {
+                "foreground": "#f90",
+                "fontStyle": ""
+            },
+            "numbers": {
+                "foreground": "#b86",
+                "fontStyle": ""
+            },
+            "strings": {
+                "foreground": "#ff0",
+                "fontStyle": ""
+            },
+            "types": {
+                "foreground": "#70f",
+                "fontStyle": ""
+            },
+            "variables": {
+                "foreground": "#0cf",
+                "fontStyle": ""
+            },
+            "textMateRules": []
+        }
+    }
+}
