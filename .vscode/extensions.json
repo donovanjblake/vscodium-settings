@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "beardedbear.beardedtheme",
+        "beardedbear.beardedicons",
+        "tamasfe.even-better-toml",
+        "rust-lang.rust-analyzer"
+    ]
+}
