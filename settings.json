@@ -171,10 +171,20 @@
     // I like a max width of 100
     "editor.rulers": [100]
   },
+  "[jsonc]": {
+    // I like a max width of 100
+    "editor.rulers": [100],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   // Disable inlay hints for rust.
   // - Rust is smart enough to figure it out.
   // - Hover to figure it out
   // - Disrespects the line width
-  "rust-analyzer.inlayHints.typeHints.enable": false
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  // I'm typically opening another folder for reference. Do not replace the current workspace.
+  "window.openFoldersInNewWindow": "on",
+  // I often have a reference folder last open, not my main folder. Allow me to select from recents
+  // whenever I start VSCodium.
+  "window.restoreWindows": "none"
 }
